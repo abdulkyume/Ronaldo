@@ -18,9 +18,10 @@
   background-color: white;
   box-shadow: 2px 2px 5px #d9d6d8, -2px -2px 5px #d9d6d8;
 }
-section{
-  max-width: 75rem;
-  margin: auto;
+.nav-transparent{
+  background-color: transparent;
+}
+body{
   font-family: 'Poppins', sans-serif;
 }
 .navbar-brand span{
@@ -36,8 +37,16 @@ section{
   top: 0;
   left: 0;
   bottom: 0;
+  right: 0;
+  content: '';
   width: 50%;
   opacity: 0.1;
+}
+.heyiam{
+  margin-top: 17rem;
+}
+.heyiam1{
+  margin-bottom: 14rem;
 }
 .text-blue{
   color: #3E64FF;
@@ -58,7 +67,120 @@ section{
   background-color: #EDF0FF;
   max-width: 75px;
   height: 75px;
+  position: relative;
+  left: 46.5%;
   transform: rotate(45deg);
+}
+.upndarrow{
+  margin-top: 14rem;
+  z-index: 1;
+  animation-name: upndarro;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+@media screen and (max-width: 1200px) {
+  .heyiam {
+    margin-top: 8rem;
+  }
+  .fs-60{
+    font-size: 50px;
+  }
+  .dabtn{
+    left: 45.6%;
+  }
+  .upndarrow{
+    margin-top: 10rem;
+  }
+  .heyiam1{
+    margin-bottom: 10rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .heyiam {
+    margin-top: 8rem;
+  }
+  .fs-60{
+    font-size: 50px;
+  }
+  .dabtn{
+    left: 44.6%;
+  }
+  .upndarrow{
+    margin-top: 10rem;
+  }
+  .heyiam1{
+    margin-bottom: 10rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .heyiam {
+    margin-top: 8rem;
+    font-size: 50px;
+  }
+  .dabtn{
+    left: 44.5%;
+  }
+  .upndarrow{
+    margin-top: 5rem;
+  }
+  .heyiam1{
+    margin-bottom: 5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .heyiam {
+    margin-top: 8rem;
+    font-size: 50px;
+  }
+  .dabtn{
+    left: 42.5%;
+  }
+  .upndarrow{
+    margin-top: 10rem;
+  }
+  .heyiam1{
+    margin-bottom: 10rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .heyiam {
+    margin-top: 8rem;
+    font-size: 50px;
+  }
+  .dabtn{
+    left: 40.5%;
+  }
+  .upndarrow{
+    margin-top: 7rem;
+  }
+  .heyiam1{
+    margin-bottom: 7rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .heyiam {
+    margin-top: 8rem;
+    font-size: 50px;
+  }
+  .dabtn{
+    left: 37.5%;
+  }
+  .upndarrow{
+    margin-top: 5rem;
+  }
+  .heyiam1{
+    margin-bottom: 5rem;
+  }
+}
+.sheader{
+  width: 100%;
+  position: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.aboutme{
+  margin-top: 11.1rem;
 }
 .dabtn p{
   transform: rotate(-45deg);
@@ -133,7 +255,7 @@ section{
   height: 350px;
 }
 .projectcardimg img{
-  width: 100%;
+  width: 90%;
   max-height: 100%;
 }
 .projectcardtitle{
@@ -261,17 +383,8 @@ section{
   color: #3E64FF !important;
   margin-left: 20px;
 }
-.iamcontents{
-  margin-top: 16rem;
-  margin-bottom: 25.2rem;
-}
-.upndarrow{
-  top: 80%;
-  z-index: 1;
-  animation-name: upndarro;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
-}
+
+
 @keyframes upndarro {
   from {top: 80%;}
   to {top: 160%;}

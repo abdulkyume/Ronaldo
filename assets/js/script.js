@@ -1,12 +1,10 @@
-var myNav;
-var title;
-window.onload = function () {
-  myNav = document.getElementById("mynav");
-  title = document.getElementById("changetext");
-
-};
-
+var myNav ;
+// window.onload = function () {
+//   myNav = document.getElementById("mynav");
+// };
+myNav = document.getElementById("mynav");
 window.onscroll = function () {
+  console.log(myNav);
   if (
     document.body.scrollTop >= 100 ||
     document.documentElement.scrollTop >= 100
