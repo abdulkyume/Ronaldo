@@ -95,7 +95,7 @@ body{
     margin-bottom: 10rem;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .heyiam {
     margin-top: 8rem;
   }
@@ -103,7 +103,7 @@ body{
     font-size: 50px;
   }
   .dabtn{
-    left: 45.6%;
+    left: 46.6%;
   }
   .upndarrow{
     margin-top: 10rem;
@@ -463,20 +463,5 @@ body{
   .bg-black1 {
     padding: 0;
     padding-top: 4rem;
-  }
-}
-@media screen and (max-width: a) {
-  .bg-black1 {
-    padding: 0;
-  }
-}
-@media screen and (max-width: a) {
-  .bg-black1 {
-    padding: 0;
-  }
-}
-@media screen and (max-width: a) {
-  .bg-black1 {
-    padding: 0;
   }
 }
