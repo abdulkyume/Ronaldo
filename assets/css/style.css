@@ -78,7 +78,23 @@ body{
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
 }
-
+@media screen and (min-width: 1200px) {
+  .heyiam {
+    margin-top: 15rem;
+  }
+  .fs-60{
+    font-size: 50px;
+  }
+  .dabtn{
+    left: 45.6%;
+  }
+  .upndarrow{
+    margin-top: 10rem;
+  }
+  .heyiam1{
+    margin-bottom: 10rem;
+  }
+}
 @media screen and (max-width: 1200px) {
   .heyiam {
     margin-top: 8rem;
@@ -160,7 +176,7 @@ body{
 }
 @media screen and (max-width: 400px) {
   .heyiam {
-    margin-top: 8rem;
+    margin-top: 6rem;
     font-size: 50px;
   }
   .dabtn{
@@ -171,6 +187,9 @@ body{
   }
   .heyiam1{
     margin-bottom: 5rem;
+  } 
+  .bgfrelnc .row{
+    padding: 0rem !important;
   }
 }
 .sheader{
@@ -266,7 +285,7 @@ body{
   text-align: center;
   opacity: 1;
   height: 100%;
-  width: 100%;
+  width: auto;
   opacity: 0;
   transition: 1s;
   background-color: #486CFF;
@@ -439,4 +458,25 @@ body{
   border-radius: 50%;
   font-size: 1.85em;
   color: black;
+}
+@media screen and (max-width: 576px) {
+  .bg-black1 {
+    padding: 0;
+    padding-top: 4rem;
+  }
+}
+@media screen and (max-width: a) {
+  .bg-black1 {
+    padding: 0;
+  }
+}
+@media screen and (max-width: a) {
+  .bg-black1 {
+    padding: 0;
+  }
+}
+@media screen and (max-width: a) {
+  .bg-black1 {
+    padding: 0;
+  }
 }
